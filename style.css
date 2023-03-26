@@ -1,4 +1,6 @@
 
+  /*@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');*/
+ 
   @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 
@@ -6,63 +8,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-color: #fff;
-font-family: 'Karla',sans-serif;
-
+    color: #fff;
+    font-family: 'Kanit',sans-serif;
+    border-radius: 5px;
 }
-
 :root{
-    --bgcolor : #1c1c1c;
-    --accent-color: yellow;
+   background-image: linear-gradient(to bottom right, #ed7905, #e9c708);
 }
-
 body{
-
     background-color: var(--bgcolor);
-
-
 }
-
-.link-tree{
+.link-tree {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
-    width: 90vw;
-    margin: 0 auto;
-    gap: 20x;
-
+    justify-content: center;
+    width: 30vw;
+    margin: 100px  auto 0;
+    gap: 20px;   
+    border-radius: 5px;
 }
 
-.link-tree img{
-
-width: 150px;
-height: 150px;
-border-radius: 50%;
-
-
-
+.cachorro-img{
+width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 2px solid #fff;
 }
 
-.link-tree h1{
-    font-size: 2.5rem;
+.link-tree img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+}
+
+.image {
+    align-self: flex-start;
+    margin-right: 90%;
+    display: flex;
+    padding: 49px;
+}
+
+.h1{
+    font-size: 1.2rem; 
+    text-align: center;
 }
 
 .link-tree a {
-
-    background-color:  yellow;
-    color:  var(--bgcolor);
-    width: 100%;
-    padding: 15px;
+   
+    color:  #fff;
+    display: center;
+    flex-direction: row;
+    width: 150%;
+    float: rights;
+    
     text-decoration: center;
     text-align: center;
     text-transform: uppercase;
+    
     font-size: 1.1rem;
     font-weight: bold;
-    border: solid 2px var(--accent-color);
+    border: 2px solid #fff;
 }
 
 .link-tree a :hover{
 background-color: var(--bgcolor);
 color: var(--accent-color);
 }
+
